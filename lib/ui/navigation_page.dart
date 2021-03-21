@@ -1,8 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gap/gap.dart';
+import 'package:youtube_clone/ui/components/circle_image_button.dart';
+import 'package:youtube_clone/ui/explore_page.dart';
+import 'package:youtube_clone/ui/home_page.dart';
+import 'package:youtube_clone/ui/library_page.dart';
+import 'package:youtube_clone/ui/subscriptions_page.dart';
 
-class NavigationPage extends StatelessWidget {
+class NavigationPage extends StatefulWidget {
+  @override
+  _NavigationPageState createState() => _NavigationPageState();
+}
+
+class _NavigationPageState extends State<NavigationPage> {
+  int _selectedIndex = 0;
+  final List<Widget> _widgets = [
+    HomePage(),
+    ExplorePage(),
+    SubscriptionsPage(),
+    LibraryPage(),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,21 +56,31 @@ class NavigationPage extends StatelessWidget {
                 color: Colors.black,
               ),
               onPressed: () {}),
-          GestureDetector(
-            onTap: () {},
-            child: CircleAvatar(
-              backgroundColor: Colors.pink[500],
-              radius: 12,
-              child: Text('Y'),
-            ),
+          CircleImageButton(
+            url: 'https://placeimg.com/100/100/people',
+            size: 24,
+            pressed: () {},
           ),
           const Gap(10),
         ],
       ),
-      body: Center(
-        child: Text('Youtube Clone'),
-      ),
+      body: _widgets.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectedIndex > 1 ?
+                      _selectedIndex + 1 :
+                      _selectedIndex,
+        onTap: (index) {
+          if (index == 2) {
+            return;
+          }
+          setState(() {
+            if (index > 2) {
+              _selectedIndex = index - 1;
+            } else {
+              _selectedIndex = index;
+            }
+          });
+        },
         items: [
           BottomNavigationBarItem(
             activeIcon: Icon(Icons.home),
