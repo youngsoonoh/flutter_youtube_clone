@@ -25,6 +25,7 @@ class _NavigationPageState extends State<NavigationPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         leading: IconButton(
           icon: FaIcon(FontAwesomeIcons.youtube),
           color: Colors.red,
