@@ -31,6 +31,8 @@ dependencies:
   json_serializable:
   intl: 0.17.0
   timeago: ^3.0.2
+  visibility_detector: ^0.1.5
+  video_player: ^2.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

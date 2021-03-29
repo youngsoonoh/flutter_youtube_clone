@@ -34,7 +34,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/90/90/people',
       publishDateTime: DateTime.now(),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 3',
       channelName: '유튜브 채널 3',
@@ -50,7 +50,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/80/80/people',
       publishDateTime: DateTime(2021, 3, 24, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 5',
       channelName: '유튜브 채널 5',
@@ -66,7 +66,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/90/90/people',
       publishDateTime: DateTime(2021, 1, 2, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 7',
       channelName: '유튜브 채널 7',
@@ -82,7 +82,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/100/100/people',
       publishDateTime: DateTime(2021, 3, 12, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 9',
       channelName: '유튜브 채널 9',
@@ -98,7 +98,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/80/80/people',
       publishDateTime: DateTime(2021, 3, 24, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 11',
       channelName: '유튜브 채널 11',
@@ -106,7 +106,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/100/100/people',
       publishDateTime: DateTime(2021, 2, 23, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 12',
       channelName: '유튜브 채널 12',
@@ -122,7 +122,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/80/80/people',
       publishDateTime: DateTime(2021, 3, 5, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 14',
       channelName: '유튜브 채널 14',
@@ -130,7 +130,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/90/90/people',
       publishDateTime: DateTime(2021, 2, 15, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 15',
       channelName: '유튜브 채널 15',
@@ -138,7 +138,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/80/80/people',
       publishDateTime: DateTime(2021, 3, 5, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 16',
       channelName: '유튜브 채널 16',
@@ -154,7 +154,7 @@ final youtubeList = [
       channelThumbnailImg: 'https://placeimg.com/90/90/people',
       publishDateTime: DateTime(2021, 1, 5, 12, 20, 5),
       videoUrl:
-          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'),
+          'https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_20mb.mp4'),
   YoutubeModel(
       title: '유튜브 타이틀 18',
       channelName: '유튜브 채널 18',
